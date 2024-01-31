@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    background-color:black;
+    border: 2px solid black;
+    text-align: center;
+    padding: 8px;
+    position: relative;
+    width: 100%;
+}
+body{
+    background-color: antiquewhite;
+}
+
+nav{
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    background-color: rgb(77, 69, 69);
+    padding: 10px;
+}
+
+img{
+   
+    box-shadow: 5px 6px 10px black;
+    border-radius: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 10px 26px;
+    color: white;
+    display: inline-block;
+}
+
+table tr th,td{
+    padding: 10px;
+}
+
+table{
+    align-items: center;
+    
+}
+
+h2{
+    padding: 10px;
+}
+
+section{
+    padding: 25px;
+    font-size: large;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 10px;
+}
+
+h3{
+    padding: 20px;
+}
+
+div ul{
+    padding-left: 25px;
+}
+
+form {
+    padding: 20px;
+}
+
+form div{
+    padding: 5px;
+}
+
+form div textarea{
+    text-align: start;
+}
+
+button{
+    padding: 25px;
+    padding-left: 20px;
+    border-radius: 55px;
+    color: rgb(9, 130, 216);
+    cursor: pointer;
+}

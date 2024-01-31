@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resturant Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to Resturant</h1>
+    </header>
+
+    <nav>
+      
+      <a href="#">Home</a>
+      <a href="#">Menu</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+
+    </nav>
+    
+
+    <section>
+      <img
+        src="https://thumbs.dreamstime.com/b/pav-bhaji-marathi-cuisine-indian-dish-mix-vegetable-curry-served-buns-also-known-as-usually-eaten-maharashtra-109154966.jpg"
+        alt=""
+        width="555px"
+        align="right"
+      />
+      <table border="2">
+        <h2>Our Menu</h2>
+        <tr>
+          <th>Item</th>
+          <th>Description</th>
+          <th>Price</th>
+        </tr>
+
+        <tr>
+          <td>Pavbhaji</td>
+          <td>Most famous Pav bhaji</td>
+          <td>$500</td>
+        </tr>
+
+        <tr>
+          <td>Misal Pav</td>
+          <td>lovely Misal Pav</td>
+          <td>$100</td>
+        </tr>
+      </table>
+      <div>
+        <h2>Our Special Dish</h2>
+        <ul>
+          <li>Kadhai Panner</li>
+          <li>Dal Tadka</li>
+          <li>Veg Biryani</li>
+        </ul>
+      </div>
+
+      <div>
+        <h2>Contact us</h2>
+      </div>
+
+      <form action="post">
+        <div>
+          <label for="username">Name</label>
+          <input type="text" id="username" name="username" placeholder="enter your username" required autofocus>
+        </div>
+
+        <div>
+            <label for="comment">Enter your comment</label>
+            <textarea name="comment" id="comment" cols="3" rows="3"></textarea>
+        </div>
+
+        <div>
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+            <label for="subscribe">Subscribe to newsletter
+            </label>
+        </div>
+      </form>
+
+      <button>submit</button>
+    </section>
+
+    <footer>&copy; 2024 all rights are reserved</footer>
+  </body>
+</html>
