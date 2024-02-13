@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+    <link rel="stylesheet" href="sytle.css">
+</head>
+<body>
+    <header>
+        <h1>CountDown Timer</h1>
+    </header>
+
+    <div class="content">
+        <div class="counter"></div>
+        <input type="number" id="seconds" placeholder="Enter seconds">
+        <div class="button">
+            <button class="btn start" id="start" value="1" onclick="check(this)">Start</button>
+            <button class="btn start" id="continue" value="1" onclick="check(this)">Continue</button>
+            <button class="btn stop" id="stop" value="0" onclick="check(this)">stop</button>
+            <button class="btn start" id="submit" onclick="subm()">Submit</button>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
