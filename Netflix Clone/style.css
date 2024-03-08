@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main {
+    height: 90vh;
+    width: 100%;
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/93da5c27-be66-427c-8b72-5cb39d275279/94eb5ad7-10d8-4cca-bf45-ac52e0a052c0/IN-en-20240226-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    position: relative;
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+}
+
+.layer {
+    position: relative;
+    height: 90vh;
+    width: 100%;
+    background-image: url();
+    /* border: 2px solid black; */
+    background-color: black;
+    opacity: 0.7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line {
+    height: 8px;
+    width: 100%;
+    background-color: grey;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    margin-left: 145px;
+    width: 80%;
+    height: 80px;
+    z-index: 10;
+    margin-top: 5px;
+}
+
+nav button {
+    height: 40px;
+    width: 90px;
+    border-radius: 8px;
+}
+
+.mainline {
+    font-family: sans-serif;
+    width: 100%;
+    height: calc(100% - 20px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: absolute;
+    gap: 10px;
+    padding: 30px 0px;
+    z-index: 1;
+}
+
+.mainline> :nth-child(1) {
+    font-size: larger;
+    font-weight: 900;
+    font-size: 56px;
+    opacity: 1;
+}
+
+.mainline> :nth-child(2) {
+    font-size: larger;
+    font-weight: 900;
+    font-size: 56px;
+    opacity: 1;
+}
+
+.mainline> :nth-child(3) {
+    font-size: 25px;
+}
+
+.mainline> :nth-child(4) {
+    font-size: larger;
+    padding-top: 25px;
+}
+
+.info {
+    padding-top: 25px;
+
+}
+
+.info> :nth-child(1) {
+    width: 350px;
+    height: 50px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.info> :nth-child(2) {
+    width: 250px;
+    height: 50px;
+    background: red;
+    border: 1px solid white;
+    color: white;
+    font-weight: 500;
+    font-size: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.topic {
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.trending .but button {
+    width: 100px;
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+    height: 35px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.but>:nth-child(2) {
+    margin-left: 15px;
+}
+
+.box {
+    padding-top: 40px;
+    padding-left: 145px;
+    padding-right: 145px;
+}
+
+.movimg {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow-x: scroll;
+    margin-bottom: 50px;
+}
+
+.movimg img {
+    padding: 20px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.poster {
+    /* position: absolute; */
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    margin-top: 50px;
+    /* background-color: red; */
+}
+
+.firstbox {
+    position: relative;
+    width: 100%;
+    height: 90%;
+    /* border: 2px solid blue; */
+    margin: 20px;
+    background: linear-gradient(rgb(52, 71, 103), rgb(83, 49, 45));
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.firstbox>:nth-child(1) {
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    /* padding: 20px; */
+}
+
+.firstbox div {
+    color: white;
+    margin: 20px;
+}
+
+.que {
+    /* background-color: wheat; */
+    box-sizing: border-box;
+    margin-bottom: 90px;
+}
+
+.que ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.que ul li {
+    color: white;
+    background-color: rgb(46, 39, 39);
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 780px;
+    border: 2px solid black;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.que ul li span {
+    /* font-weight: 200; */
+    font-size: 40px;
+}
+
+.email {
+    color: white;
+    font-size: large;
+}
+
+.info2 {
+    margin: 20px;
+}
+
+.info2> :nth-child(1) {
+    width: 55%;
+    height: 50px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.info2> :nth-child(2) {
+    width: 20%;
+    height: 50px;
+    background: red;
+    border: 1px solid white;
+    color: white;
+    font-weight: 500;
+    font-size: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.call {
+    color: white;
+    font-size: smaller;
+    opacity: 0.7;
+}
+
+.bottom {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 780px;
+}
+
+.bottom .btm {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom .btm a {
+    color: white;
+    font-size: small;
+    padding: 6px;
+    opacity: 0.7;
+}
+
+.language {
+    color: white;
+    background: transparent;
+    height: 50px;
+    width: 80px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 1px solid whitesmoke;
+}
+
+.btmhead {
+    color: white;
+    margin-bottom: 80px;
+}
